@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+img.tema{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: -10;
+}
+
+header.head{
+    height: 120px;
+    background-image: linear-gradient(to right, skyblue, blue);
+}
+
+header a h1{
+    color: black;
+    padding: 30px 0 0 0;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+
+header p{
+
+        text-align: center;
+        padding: 5px 0 0 0;
+        margin: -10px auto auto auto;
+}
+
+
+.garis1{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+
+
+
+/* ==============MAIN========= */
+
+
+
+div.utama{
+    background-color: rgba(250, 250, 250, 0.78);
+    width: 80%;
+    height: 360px;
+    margin: 80px auto 0 auto;
+    padding: 30px 30px;
+    border-radius: 25px;
+}
+
+div.utama p span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+main .salam{
+    margin-bottom: 30px;
+
+}
+
+/* div article{
+    width: 32%;
+    float: left;
+    padding: 0 5px;
+} */
+
+div article p{
+    overflow: auto;
+    max-height: 260px;
+}
+
+div.utama h2{
+    padding-bottom: 10px;
+}
+
+div .Laksana{
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+div .Adi{
+    border-left: solid 1px black;
+    border-radius: 15px;
+}
+
+div .Tentrem{
+    border-radius: 15px;
+    border-right: solid 1px black;
+}
+
+
+/* ==============MAIN2============== */
+
+div.main2{
+    background-image: linear-gradient(to right, skyblue, blue);
+    width: 100%;
+    height: 150px;
+    margin-top: 80px;
+    border-radius: 30px;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    z-index: 10;
+}
+
+h2.bus{
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 1px ;
+    width: 200px;
+    margin: 15px auto;
+    font-size: 30px;
+}
+
+
+/* ==========================GALERY================== */
+
+div.latar{
+    border-top: 3px solid white;
+    background-color: lightslategray;
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    margin-top: -65px;
+    z-index: -10;
+}
+.galeri{
+    padding-top: 60px;
+    margin: 40px 50px;
+    text-align: center;
+}
+
+.galeri a img{
+    width: 200px;
+    height: 200px;
+    padding: 7px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.galeri a img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+/* ===============FOOTER============= */
+
+footer {
+    text-align: center;
+    height: 250px;
+    background-color: #008B8B;
+    color: white;
+    clear: both;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.instagram {
+	background-color: #E1306C;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.logo{
+	padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: "Pangolin";
+    font-size: 20px;
+}
+
+@media only screen and ( min-width: 0px){
+
+    img.tema{
+        position: absolute;
+        width: 100%;
+        height: 1450px;
+        left: 0;
+        z-index: -10;
+    }
+
+    /* ==============MAIN========= */
+
+
+
+    div.utama{
+        background-color: rgba(250, 250, 250, 0.78);
+        width: 80%;
+        height: 1050px;
+        margin: 80px auto 0 auto;
+        padding: 30px 30px;
+        border-radius: 25px;
+    }
+
+    div article{
+        width: 90%;
+        padding: 10px 10px 20px 10px;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+
+    }
+
+    /* ==============MAIN2============== */
+
+    div.main2{
+        background-image: linear-gradient(to right, skyblue, blue);
+        width: 100%;
+        height: 150px;
+        margin-top: 80px;
+        border-radius: 30px;
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        z-index: 10;
+    }
+
+    h2.bus{
+        text-align: center;
+        font-weight: bold;
+        padding: 12px 1px ;
+        width: 200px;
+        margin: 15px auto;
+        font-size: 30px;
+    }
+
+
+    /* ==========================GALERY================== */
+
+    div.latar{
+        border-top: 3px solid white;
+        background-color: lightslategray;
+        width: 100%;
+        margin: auto;
+        height: 600px;
+        margin-top: -65px;
+        z-index: -10;
+    }
+    .galeri{
+        padding-top: 20px;
+        margin: 40px 50px;
+        text-align: center;
+    }
+
+    /* !!!!!!!!!PENTING!!!!! */
+
+    img.h, img.i, img.j, img.k{
+        position: absolute;
+        z-index: -99999;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!! */
+
+    .galeri a img{
+        width: 130px;
+        height: 150px;
+        padding: 3px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .galeri a img:hover{
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+}
+
+
+
+@media only screen and ( min-width: 500px){
+
+    img.tema{
+        position: absolute;
+        width: 100%;
+        height: 1450px;
+        left: 0;
+        z-index: -10;
+    }
+
+    /* ==============MAIN========= */
+
+
+
+    div.utama{
+        background-color: rgba(250, 250, 250, 0.78);
+        width: 80%;
+        height: 1050px;
+        margin: 80px auto 0 auto;
+        padding: 30px 30px;
+        border-radius: 25px;
+    }
+
+    div article{
+        width: 90%;
+        padding: 10px 10px 20px 10px;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+
+    }
+
+    /* ==============MAIN2============== */
+
+    div.main2{
+        background-image: linear-gradient(to right, skyblue, blue);
+        width: 100%;
+        height: 150px;
+        margin-top: 80px;
+        border-radius: 30px;
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        z-index: 10;
+    }
+
+    h2.bus{
+        text-align: center;
+        font-weight: bold;
+        padding: 12px 1px ;
+        width: 200px;
+        margin: 15px auto;
+        font-size: 30px;
+    }
+
+
+    /* ==========================GALERY================== */
+
+    div.latar{
+        border-top: 3px solid white;
+        background-color: lightslategray;
+        width: 100%;
+        margin: auto;
+        height: 600px;
+        margin-top: -65px;
+        z-index: -10;
+    }
+    .galeri{
+        padding-top: 20px;
+        margin: 40px 50px;
+        text-align: center;
+    }
+
+    /* !!!!!!!!!PENTING!!!!! */
+
+    img.h, img.i, img.j, img.k{
+        position: absolute;
+        z-index: -99;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!! */
+
+    .galeri a img{
+        width: 130px;
+        height: 150px;
+        padding: 3px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .galeri a img:hover{
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and ( min-width: 600px){
+
+    div.utama{
+        background-color: rgba(250, 250, 250, 0.78);
+        width: 80%;
+        height: 950px;
+        margin: 80px auto 0 auto;
+        padding: 30px 30px;
+        border-radius: 25px;
+    }
+
+    div.latar{
+        border-top: 3px solid white;
+        background-color: lightslategray;
+        width: 100%;
+        margin: auto;
+        height: 500px;
+        margin-top: -65px;
+        z-index: -10;
+    }
+}
+
+
+@media only screen and ( min-width: 875px){
+
+    img.tema{
+        position: absolute;
+        width: 100%;
+        height: 1000px;
+        left: 0;
+        z-index: -10;
+    }
+
+    /* ==============MAIN========= */
+
+    div.utama{
+        background-color: rgba(250, 250, 250, 0.78);
+        width: 80%;
+        height: 750px;
+        margin: 80px auto 0 auto;
+        padding: 30px 30px;
+        border-radius: 25px;
+    }
+
+    /* ==========================GALERY================== */
+
+    div.latar{
+        border-top: 3px solid white;
+        background-color: lightslategray;
+        width: 100%;
+        margin: auto;
+        height: 650px;
+        margin-top: -65px;
+        z-index: -10;
+    }
+    .galeri{
+        padding-top: 20px;
+        margin: 40px 50px;
+        text-align: center;
+    }
+
+    /* !!!!!!!!!PENTING!!!!! */
+
+    img.h, img.i, img.j, img.k{
+        position: relative;
+        z-index: 10;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!! */
+
+    .galeri a img{
+        width: 160px;
+        height: 160px;
+        padding: 7px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .galeri a img:hover{
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and ( min-width: 1050px){
+
+    /* ==============MAIN========= */
+
+    div.utama{
+        background-color: rgba(250, 250, 250, 0.78);
+        width: 80%;
+        height: 650px;
+        margin: 80px auto 0 auto;
+        padding: 30px 30px;
+        border-radius: 25px;
+    }
+
+    /* ==========================GALERY================== */
+
+    div.latar{
+        border-top: 3px solid white;
+        background-color: lightslategray;
+        width: 100%;
+        margin: auto;
+        height: 650px;
+        margin-top: -65px;
+        z-index: -10;
+    }
+    .galeri{
+        padding-top: 20px;
+        margin: 40px 50px;
+        text-align: center;
+    }
+
+    /* !!!!!!!!!PENTING!!!!! */
+
+    img.h, img.i, img.j, img.k{
+        position: relative;
+        z-index: 10;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!! */
+
+    .galeri a img{
+        width: 150px;
+        height: 200px;
+        padding: 7px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .galeri a img:hover{
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+}
+
+
+@media only screen and ( min-width: 1205px){
+
+    /* ==============MAIN========= */
+
+    div.utama{
+        background-color: rgba(250, 250, 250, 0.78);
+        width: 80%;
+        height: 650px;
+        margin: 80px auto 0 auto;
+        padding: 30px 30px;
+        border-radius: 25px;
+    }
+
+    /* ==========================GALERY================== */
+
+    div.latar{
+        border-top: 3px solid white;
+        background-color: lightslategray;
+        width: 100%;
+        margin: auto;
+        height: 600px;
+        margin-top: -65px;
+        z-index: -10;
+    }
+    .galeri{
+        padding-top: 20px;
+        margin: 40px 50px;
+        text-align: center;
+    }
+
+    /* !!!!!!!!!PENTING!!!!! */
+
+    img.h, img.i, img.j, img.k{
+        position: relative;
+        z-index: 10;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!! */
+
+    .galeri a img{
+        width: 200px;
+        height: 200px;
+        padding: 7px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .galeri a img:hover{
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+}
